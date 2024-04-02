@@ -1,0 +1,65 @@
+.main-box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    position: relative;
+}
+h3{
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: aliceblue;
+   
+
+}
+
+
+.box-1{   
+    display: flex;
+    height: 3rem;
+    gap: 0.8rem;
+}
+input{
+    
+    width: 100%;
+    border-radius: 5px;
+    background-color: rgba(13, 120, 213, 0.915);
+    font-size: larger;
+    color: azure;
+    border: none;
+}
+.btn{
+    font-size: medium;
+    border-radius: 5px;
+    background-color: rgb(25, 212, 250);
+    font-weight: 900;
+    border: none;
+}
+.list{
+    width: 100%;
+    margin-top: 1rem;
+}
+.list-item{
+    display: flex;
+    background-color: rgba(48, 57, 36, 0.8);
+    width: 100%;
+    justify-content: space-between;
+    border-radius: 15px;
+}
+.text{
+    font-size: larger;
+    font-weight: bold;
+    padding: 8px;
+    color: aliceblue;
+
+}
+.btn-1{
+    
+    background-color: rgb(166, 2, 2);
+    color: whitesmoke;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 50%;
+    
+}
